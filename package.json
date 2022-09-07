@@ -1,0 +1,15 @@
+{
+  "name": "bs-ts",
+  "version": "1.0.0",
+  "description": "Sistema de recados.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fabiane Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
