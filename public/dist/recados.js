@@ -82,3 +82,6 @@ function apagarRecado(id) {
         alert("Operação Cancelada!");
     }
 }
+function sairDaPagina() {
+    window.location.href = 'entrar01.html';
+}

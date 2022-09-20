@@ -37,7 +37,7 @@ function cadastrarUsuario() {
     salvarUsuarioLocalStorage(listaUsuarios);
     alert("Conta criada com sucesso.");
     formularioCadastro.reset();
-    window.location.href = 'entrar.html';
+    window.location.href = 'entrar01.html';
 }
 ;
 function salvarUsuarioLocalStorage(listaDados) {

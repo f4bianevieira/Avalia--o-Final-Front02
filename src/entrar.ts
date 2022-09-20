@@ -29,7 +29,7 @@ function logar(): void{
 
     localStorage.setItem('usuarioLogado', usuarioEncontrado.email);
 
-    window.location.href = 'recados.html';
+    window.location.href = 'recados1.html';
 
 }
 

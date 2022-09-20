@@ -2,6 +2,8 @@ let id = document.getElementById('id') as HTMLInputElement;
 let descricao = document.getElementById('descricao') as HTMLInputElement;
 let detalhamento = document.getElementById('detalhamento') as HTMLInputElement;
 
+
+
 let tabela = document.getElementById('tabela-recados') as HTMLTableElement;
 
 let formularioRecados = document.getElementById('formulario-recados') as HTMLFormElement;
@@ -20,6 +22,8 @@ interface Usuario {
 }
 
 let dadosUsuarioLogado: Usuario;
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     let usuarioLogado = localStorage.getItem('usuarioLogado');
@@ -125,4 +129,7 @@ function apagarRecado(id: string): void{
     alert("Operação Cancelada!");
   }
 
+}
+function sairDaPagina(){
+  window.location.href = 'entrar01.html'
 }

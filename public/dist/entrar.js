@@ -15,7 +15,7 @@ function logar() {
         return;
     }
     localStorage.setItem('usuarioLogado', usuarioEncontrado.email);
-    window.location.href = 'recados.html';
+    window.location.href = 'recados1.html';
 }
 function buscarUsuarios() {
     return JSON.parse(localStorage.getItem('usuarios') || '[]');
